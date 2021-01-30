@@ -27,13 +27,6 @@ class Banner extends Component {
                         </div>
                     </div>
                 </div>
-                
-                <ModalVideo 
-                    channel='youtube' 
-                    isOpen={this.state.isOpen} 
-                    videoId='szuchBiLrEM' 
-                    onClose={() => this.setState({isOpen: false})} 
-                />
             </React.Fragment>
         );
     }

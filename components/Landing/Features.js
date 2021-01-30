@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import ModalVideo from 'react-modal-video';
+import ReactPlayer from 'react-player';
 
 class Features extends Component {
     state = {
-        isOpen: false
+        isPlaying: false
     };
 
     openModal = () => {
-        this.setState({ isOpen: true })
+        this.setState({ isPlaying: true })
     };
 
     render() {
@@ -16,8 +16,8 @@ class Features extends Component {
                 <section id="features" className="features-area ptb-100 bg-f5f7ff">
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-7 col-md-6">
-                                <div class="why-section">
+                            <div className="col-lg-6 col-md-6">
+                                <div className="why-section">
                                     <div className="row">
                                         <p className="tag">Trusted by fortune 500's</p>
                                         <h2 className="why-subtitle">Why Use inc brands</h2>
@@ -30,7 +30,7 @@ class Features extends Component {
                                         </div>
                                     </div>
                                     <div className="row mt-3">
-                                        <div className="col-2"><button className="btn btn-icon btn-icon-check"><i className="fa fa-check"></i></button></div>
+                                        <div className="col-2"><button className="btn btn-icon"><i className="fa fa-check"></i></button></div>
                                         <div className="col-10 mt-2">
                                             <h4 className="why-title">Easy To start, Pause or Stop</h4>
                                             <p className="why-content">Our account managers assist our clientele in helping them achieve timelines and more.</p>
@@ -45,31 +45,30 @@ class Features extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-5 col-md-6">
+                            <div className="col-lg-6 col-md-6 text-end">
                                 <img src='/images/why-us.png' alt="image" />
                             </div>
                         </div>
                         <div className="row mt-5">
                             <div className="col-lg-12 col-md-12 text-center mt-5">
-                                <img src='/images/cta-bg.jpg' alt="image" />
+                                <ReactPlayer className="video" url="https://www.youtube.com/watch?v=aqz-KE-bpKQ" playing={this.state.isPlaying} />
                             </div>
-                            <div className="cta-content">
-                                <div
-                                    className="popup-youtube video-btn"
-                                    onClick={e => { e.preventDefault(); this.openModal() }}
-                                >
-                                    <i className="fas fa-play"></i>
+                            {this.state.isPlaying != true ? (
+                                <div className="cta-content">
+                                    <div
+                                        className="popup-youtube video-btn"
+                                        onClick={e => { e.preventDefault(); this.openModal() }}
+                                    >
+                                        <i className="fas fa-play"></i>
+                                    </div>
                                 </div>
-                            </div>
+                            ) : (
+                                    <></>
+                                )}
+
                         </div>
                     </div>
                 </section>
-                <ModalVideo
-                    channel='youtube'
-                    isOpen={this.state.isOpen}
-                    videoId='szuchBiLrEM'
-                    onClose={() => this.setState({ isOpen: false })}
-                />
             </React.Fragment>
         );
     }

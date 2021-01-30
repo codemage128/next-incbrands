@@ -24,10 +24,17 @@ Default CSS
 body {
   padding: 0;
   margin: 0;
-  font-family: "Montserrat", sans-serif;
-  font-size: 15px;
+  font-family: "Karla", sans-serif;
+  /* font-family: "myriad-pro", Myriad Pro; */
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 300;
 }
 
+.video{
+  width: 100% !important;
+  height: 600px !important;
+}
 a {
   display: block;
   outline: 0;
@@ -202,225 +209,6 @@ p:last-child {
   font-size: 17px !important;
 }
 
-/*freelancer-section-title*/
-.freelancer-section-title {
-  text-align: center;
-  margin-bottom: 60px;
-  position: relative;
-  z-index: 1;
-}
-
-.freelancer-section-title h2 {
-  margin-bottom: 10px;
-  margin-top: -5px;
-  position: relative;
-  z-index: 1;
-  font-size: 32px;
-  font-weight: 600;
-}
-
-.freelancer-section-title h2 span {
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    color-stop(80%, rgba(0, 0, 0, 0)),
-    color-stop(80%, #32d8f1)
-  );
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #32d8f1 80%);
-  background-size: 90px 1em !important;
-}
-
-.freelancer-section-title p {
-  max-width: 520px;
-  margin: 0 auto;
-}
-
-/*saas-section-title*/
-.saas-section-title {
-  text-align: center;
-  margin-bottom: 60px;
-}
-
-.saas-section-title h2 {
-  margin-bottom: 0;
-  margin-top: -5px;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 520px;
-  font-size: 28px;
-  font-weight: 700;
-}
-
-.saas-section-title .bar {
-  width: 70px;
-  height: 3px;
-  background: #32d8f1;
-  position: relative;
-  left: 0;
-  right: 0;
-  border-radius: 5px;
-  margin: 15px auto 15px;
-}
-
-.saas-section-title p {
-  max-width: 520px;
-  margin: 0 auto;
-}
-
-/*software-section-title*/
-.software-section-title {
-  text-align: center;
-  margin-bottom: 60px;
-  position: relative;
-  z-index: 1;
-}
-
-.software-section-title h2 {
-  margin-bottom: 10px;
-  margin-top: -5px;
-  position: relative;
-  z-index: 1;
-  font-size: 30px;
-  font-weight: 600;
-}
-
-.software-section-title p {
-  max-width: 520px;
-  margin: 0 auto;
-}
-
-.software-section-title img {
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  top: 20px;
-  z-index: -1;
-}
-
-/*app-section-title*/
-.app-section-title {
-  text-align: center;
-  margin-bottom: 60px;
-}
-
-.app-section-title h2 {
-  margin-bottom: 10px;
-  margin-top: -5px;
-  font-size: 30px;
-  font-weight: 600;
-}
-
-.app-section-title h2 span {
-  font-weight: 700;
-}
-
-.app-section-title p {
-  max-width: 520px;
-  margin: 0 auto;
-}
-
-/*lead-generation-section-title*/
-.lead-generation-section-title {
-  text-align: center;
-  margin-bottom: 60px;
-}
-
-.lead-generation-section-title span {
-  display: block;
-  color: #32d8f1;
-  font-size: 14px;
-  font-weight: 600;
-  text-transform: uppercase;
-  margin-top: -5px;
-  margin-bottom: 10px;
-}
-
-.lead-generation-section-title h2 {
-  margin-bottom: 0;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 520px;
-  font-size: 28px;
-  font-weight: 700;
-}
-
-.lead-generation-section-title .bar {
-  width: 70px;
-  height: 3px;
-  background: #32d8f1;
-  position: relative;
-  left: 0;
-  right: 0;
-  border-radius: 5px;
-  margin: 15px auto 15px;
-}
-
-.lead-generation-section-title p {
-  max-width: 520px;
-  margin: 0 auto;
-}
-
-/*car-subscription-section-title*/
-.car-subscription-section-title {
-  text-align: center;
-  margin-bottom: 60px;
-}
-
-.car-subscription-section-title span {
-  display: block;
-  color: #32d8f1;
-  font-size: 14px;
-  font-weight: 600;
-  text-transform: uppercase;
-  margin-top: -5px;
-  margin-bottom: 10px;
-}
-
-.car-subscription-section-title h2 {
-  margin-bottom: 0;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 520px;
-  font-size: 30px;
-  font-weight: 700;
-}
-
-.car-subscription-section-title img {
-  margin-top: 20px;
-}
-
-/*payment-processing-section-title*/
-.payment-processing-section-title {
-  text-align: center;
-  margin-bottom: 60px;
-}
-
-.payment-processing-section-title span {
-  display: block;
-  color: #32d8f1;
-  font-size: 14px;
-  font-weight: 600;
-  text-transform: uppercase;
-  margin-top: -5px;
-  margin-bottom: 10px;
-}
-
-.payment-processing-section-title h2 {
-  margin-bottom: 0;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 520px;
-  font-size: 30px;
-  font-weight: 700;
-}
-
-.payment-processing-section-title p {
-  max-width: 520px;
-  margin: 15px auto 0;
-}
-
 /*form-control*/
 .form-group {
   margin-bottom: 20px;
@@ -526,6 +314,9 @@ Navbar CSS
 .navbar-style-one.bg-light {
   background-color: transparent !important;
 }
+.navbar-collapse {
+  margin-top: 15px;
+}
 
 .navbar-style-one.navbar {
   position: absolute;
@@ -565,7 +356,7 @@ Navbar CSS
   text-transform: uppercase;
   color: #ffffff;
   z-index: 1;
-  font-size: 15px;
+  font-size: 13pt;
   font-weight: 600;
 }
 
@@ -1039,10 +830,11 @@ Main Banner CSS
 }
 .banner-title span {
   color: #32d8f1;
+  font-family: "Myriad Pro";
 }
 .industry-title {
   max-width: 100% !important;
-  font-size: 25px;
+  font-size: 20pt;
 }
 .industry-title::before {
   display: inline-block;
@@ -1062,15 +854,15 @@ Main Banner CSS
 }
 
 .main-banner-content {
-  margin: 30px auto 0;
+  margin: -120px auto 0;
   text-align: center;
 }
-
 .main-banner-content h1 {
   color: #ffffff;
   margin: 0;
-  font-size: 140px;
-  font-weight: 700;
+  font-size: 100pt;
+  font-weight: 100;
+  font-family: "Myriad Pro";
 }
 
 .main-banner-content p {
@@ -1920,7 +1712,7 @@ Partner CSS
 .partner-area {
   background-color: transparent;
   text-align: center;
-  margin-top: -200px;
+  margin-top: -215px;
   margin-bottom: 49px;
   margin-right: 100px;
   margin-left: 100px;
@@ -1971,10 +1763,12 @@ Partner CSS
   display: flex;
   justify-content: center;
   align-items: center;
+  filter: brightness(0.5);
 }
 
 .partner-item a:hover {
   transform: scale(1.2);
+  filter: brightness(1);
 }
 
 .partner-area-two .partner-item:hover img,
@@ -2037,6 +1831,15 @@ About CSS
 .about-area {
   position: relative;
   z-index: 1;
+}
+.about-us-left {
+  height: 742px;
+  background-image: url(/images/about-img1.jpg);
+  background-size: cover;
+}
+.about-us-right {
+  border: 13px solid #f5f7ff;
+  border-left: 0px;
 }
 
 .circle {
@@ -4134,19 +3937,12 @@ CTA CSS
   box-shadow: 2px 3px 8px 0px #adadad;
 }
 .btn-icon:hover {
-  color: blue;
-}
-.btn-icon-check {
+  color: white;
   background-color: blue;
-  color: white;
-  box-shadow: 2px 3px 8px 0px #adadad;
-}
-.btn-icon-check:hover {
-  color: white;
 }
 
 .why-title {
-  font-weight: 800;
+  font-weight: 600;
 }
 .why-content {
   font-size: 17px;
@@ -5122,7 +4918,7 @@ Pricing CSS
 =================================================*/
 .pricing-table {
   background-color: #ffffff;
-  border: 1px solid #e6e6e6;
+  border: 13px solid #f5f7ff;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   padding: 10%;
@@ -5200,6 +4996,7 @@ Pricing CSS
 }
 .subscription-table {
   background: #32d8f1;
+  border: 13px solid #32d8f1;
 }
 .btn-subscription {
   background: blue;
@@ -5402,7 +5199,69 @@ Free Trial CSS
 /*================================================
 Blog CSS
 =================================================*/
-.single-blog-post {
+.blog-section {
+  text-align: center;
+  margin: 5px;
+  position: relative;
+  min-height: 400px;
+  background-size: cover;
+}
+
+.blog-section:hover {
+  transform: translateZ(100);
+}
+
+.overlay {
+  z-index: 1;
+  height: 400px;
+  width: 100%;
+}
+/* 
+.blog-section .overlay {
+  position: relative;
+  display: inline-block;
+} */
+
+.overlay:hover::before {
+  height: 100%;
+  opacity: 0.8;
+}
+
+.overlay:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 0%;
+  width: 100%;
+  opacity: 0;
+  background: linear-gradient(#0066ff, #60abff);
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+.blog-section:hover .blog-content {
+  top: 0;
+  transition: all .8s ease-in-out 10s;
+  -moz-transition: all .8s ease-in-out 0s;
+  -webkit-transition: all .8s ease-in-out 0s;
+  -o-transition: all .8s ease-in-out 0s;
+}
+
+.blog-content {
+  text-align: left;
+  margin: 40px;
+  position: absolute;
+  top: 50%;
+  pointer-events: none;
+}
+
+.blog-content p {
+  font-size: 20px;
+  color: #fff;
+}
+.blog-content h4 {
+  color: #fff;
+  font-weight: 600;
 }
 
 .blog-one {
@@ -7158,7 +7017,7 @@ Footer CSS
 }
 
 .single-footer-widget h3 {
-  font-size: 22px;
+  font-size: 25px;
   font-weight: 600;
   margin-bottom: 50px;
   position: relative;
@@ -7182,7 +7041,7 @@ Footer CSS
 .single-footer-widget ul.list li a {
   text-transform: uppercase;
   color: white;
-  font-size: 14px;
+  font-size: 16px;
   position: relative;
 }
 
@@ -7227,13 +7086,13 @@ Footer CSS
   padding: 0px;
 }
 .support-text {
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 0px;
   color: #646464;
   font-weight: 500;
 }
 .office {
-  font-size: 15px;
+  font-size: 16px;
 }
 .support-text span {
   color: white;

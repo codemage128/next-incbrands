@@ -7,21 +7,26 @@
     color: blue;
     box-shadow: 2px 3px 8px 0px #adadad;
   }
-  .partner-area{
+
+  .video {
+    height: 190px !important;
+  }
+  .partner-area {
     margin-top: -110px;
     margin-bottom: -40px;
   }
-  .industry-title{
+  .industry-title {
     font-size: 18px;
   }
-  .banner-title{
+  .banner-title {
     font-size: 36px !important;
   }
   .why-subtitle {
     font-size: 35px;
     text-align: center;
   }
-  .why-title, .why-content{
+  .why-title,
+  .why-content {
     margin-left: 15px;
   }
   .why-content {
@@ -54,10 +59,10 @@
   .two {
     margin-bottom: 44px;
   }
-  .blog-one{
+  .blog-one {
     margin-left: 35px;
   }
-  .blog-two{
+  .blog-two {
     margin-top: -300px;
     margin-left: 40px;
   }
@@ -656,10 +661,10 @@
     margin-bottom: 15px;
     width: 100%;
   }
-  .btn-about-terminal{
-    margin-left: 0%
+  .btn-about-terminal {
+    margin-left: 0%;
   }
-  .btn-about-read{
+  .btn-about-read {
     width: 100%;
   }
   .about-sub-title {
@@ -2109,7 +2114,6 @@
   .single-interests {
     margin-bottom: 30px;
   }
-  
 
   .blog-section {
     padding-bottom: 70px;

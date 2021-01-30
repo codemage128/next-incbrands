@@ -57,8 +57,8 @@ class Navbar extends Component {
                     <div className="container">
                         <Link href="/">
                             <a className="navbar-brand">
-                                <img src="/images/white-logo.png" alt="logo" />
-                                <img src='/images/black-logo.png' alt="logo" />
+                                <img src="/images/white-logo.png" alt="logo" width="156" />
+                                <img src='/images/black-logo.png' alt="logo" width="156"/>
                             </a>
                         </Link>
                         <button
