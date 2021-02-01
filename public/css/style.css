@@ -835,7 +835,7 @@ Main Banner CSS
 }
 .banner-title span {
   color: #32d8f1;
-  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 .industry-title {
   max-width: 100% !important;
@@ -867,7 +867,7 @@ Main Banner CSS
   margin: 0;
   font-size: 100pt;
   font-weight: 100;
-  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .main-banner-content p {
